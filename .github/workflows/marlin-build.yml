@@ -3,7 +3,7 @@ name: Build Marlin Firmware
 on:
   push:
     branches:
-      - master
+      - main 
     paths:
       - "Configuration Files/Alex's Config/**.h"
 
